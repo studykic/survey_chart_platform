@@ -6,8 +6,8 @@ const mysql = require("mysql");
 const PORT = process.env.port || 8003;
 // const capstoneDB = mysql.createPool({ host: "127.0.0.1", user: "root", password: "1234", database: "capstoneDB" });
 // const answerDB = mysql.createPool({ host: "127.0.0.1", user: "root", password: "1234", database: "answerDB" });
-const capstoneDB = mysql.createPool({ host: "127.0.0.1", user: "root", password: "6819et", database: "capstoneDB" });
-const answerDB = mysql.createPool({ host: "127.0.0.1", user: "root", password: "6819et", database: "answerDB" });
+const capstoneDB = mysql.createPool({ host: "127.0.0.1", user: "root", password: "6819et78", database: "capstoneDB" });
+const answerDB = mysql.createPool({ host: "127.0.0.1", user: "root", password: "6819et78", database: "answerDB" });
 
 // 서버단에서 cors 처리하는 방법(express)
 const cors = require("cors");
