@@ -13,7 +13,7 @@ const cors = require("cors");
 let corsOptions = { origin: "*", credential: true, methods: "GET,HEAD,PUT,PATCH,POST,DELETE" };
 app.use(cors(corsOptions));
 
-// import 하는 부분
+//  Express 4.16.0버전 부터 body-parser의 일부 기능이 익스프레스에 내장
 const bodyParser = require("body-parser");
 
 // 아랫부분 적당한 위치에 추가
