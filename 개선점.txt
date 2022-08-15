@@ -56,4 +56,4 @@ PureComponent 키워드로 탐색
 컴포넌트의 state나 props가 변경될때 아니면 re-render 되지 않는다.
 
 
-232
+331
