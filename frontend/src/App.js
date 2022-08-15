@@ -10,6 +10,7 @@ import MySurvey from "./components/MySurvey";
 import HomeMenu from "./components/HomeMenu";
 import axios from "axios";
 import SurveyPost from "./components/SurveyPost";
+import Test from "./components/test";
 
 const MyFooter = styled.footer`
   position: absolute;
@@ -58,6 +59,7 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<Home SurveyData={homeCardData} />} />
         <Route path="/surveying" element={<Surveying />} />
+        <Route path="/test" element={<Test />} />
 
         <Route path="/search/query/:SEARCH_VALUE" element={<SearchResult SurveyData={homeCardData} />} />
         <Route path="/Writer_id/post" element={<MySurvey SurveyData={homeCardData} />} />
