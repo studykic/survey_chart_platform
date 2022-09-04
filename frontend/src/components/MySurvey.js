@@ -120,8 +120,6 @@ const MySurvey = ({ SurveyData }) => {
     setMySurvey(found);
   }, [SurveyData, state]);
 
-  console.log(mySurvey, "mySurvey");
-
   return (
     <div>
       <MyKeyInput>

@@ -77,7 +77,7 @@ const SearchResult = () => {
 
   return (
     <div>
-      <h1 style={{ marginLeft: "8.5vw", fontWeight: 600 }}>검색결과</h1>
+      <h1 style={{ marginLeft: "8.5vw", fontWeight: 600 }}>검색결과 SearchResult</h1>
       <SearchSection>
         {searchData.map((searchdata) => (
           <Link to={`/post/${searchdata.BOARD_ID}`} key={searchdata.BOARD_ID}>

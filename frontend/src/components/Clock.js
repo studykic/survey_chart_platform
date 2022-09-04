@@ -42,7 +42,7 @@ const Clock = () => {
   }, []);
   return (
     <>
-      <MainText style={{ fontFamily: "Reenie Beanie" }}>{Rtime}</MainText>
+      <MainText>{Rtime}</MainText>
     </>
   );
 };
