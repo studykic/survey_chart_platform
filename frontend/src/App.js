@@ -44,6 +44,11 @@ const TopBtn = styled.a`
   color: white;
 `;
 
+const Container = styled.div`
+  min-height: 100vh;
+  background-color: #236c4e;
+`;
+
 const App = () => {
   let [homeCardData, setHomeCardData] = useState([]);
 

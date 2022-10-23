@@ -7,8 +7,12 @@ const MainText = styled.div`
   display: block;
   text-align: center;
   font-size: 2.5rem;
-  font-family: "Cinzel Decorative", cursive;
+  font-family: "Dancing Script", cursive;
   background-color: rgba(255, 234, 204, 0.6);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 `;
 
 const Clock = () => {
