@@ -14,7 +14,7 @@ const HomeMenuBar = styled(Menu)`
   position: sticky;
   top: 0px;
   width: 100vw;
-  height: auto;
+  height: 10vh;
 
   z-index: 255;
 
@@ -45,6 +45,9 @@ const HomeMenuBar = styled(Menu)`
     box-shadow: 0px 0px 10px #1890ff;
   }
 `;
+const Logo = styled.img`
+  height: 100%;
+`;
 
 const HomeMenu = () => {
   let [SearchText, setSearchText] = useState();
@@ -58,9 +61,13 @@ const HomeMenu = () => {
 
   return (
     <HomeMenuBar>
+      <Link style={{ height: "100%", width: "20%" }} to="/">
+        <Logo src="./logo.png" alt="image_logo" />
+      </Link>
+      {/* 
       <Link to="/">
         <div style={{ fontSize: "2rem", fontWeight: "800", marginRight: "3%", color: "#2F3F56" }}>Home</div>
-      </Link>
+      </Link> */}
 
       <Input.Search
         style={{ width: "40%" }}
